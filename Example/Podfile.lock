@@ -4,7 +4,18 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - GJTUserCenterModule (0.1.0)
+  - GJTAdditionKit (0.0.4)
+  - GJTControlsKit (0.0.6):
+    - GJTAdditionKit
+  - GJTMvvmKit (0.0.2):
+    - GJTAdditionKit
+    - GJTControlsKit
+    - Masonry
+    - ReactiveObjC
+  - GJTUserCenterModule (0.1.0):
+    - GJTMvvmKit
+  - Masonry (1.1.0)
+  - ReactiveObjC (3.1.1)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
@@ -13,6 +24,11 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - FBSnapshotTestCase
+    - GJTAdditionKit
+    - GJTControlsKit
+    - GJTMvvmKit
+    - Masonry
+    - ReactiveObjC
 
 EXTERNAL SOURCES:
   GJTUserCenterModule:
@@ -20,7 +36,12 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  GJTUserCenterModule: 0bdbf315d0a0bc16a97ea3c4b48b08ddf40bffae
+  GJTAdditionKit: 6ee41661512e4aa2142469ad018f387d30eb850b
+  GJTControlsKit: 58f942e8c2b6401ba26ff25d5210dd8acf15fc54
+  GJTMvvmKit: f613e88767f46d2b88822e09787f8b4da6976b37
+  GJTUserCenterModule: 311eea0ca9e1affe612eb20ed0ca793a89cd2370
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
 
 PODFILE CHECKSUM: 03afca7e167d512dd33585a89bdb8ee3fbb0bf01
 

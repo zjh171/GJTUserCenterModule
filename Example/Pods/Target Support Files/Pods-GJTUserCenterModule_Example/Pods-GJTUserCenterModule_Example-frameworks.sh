@@ -175,10 +175,20 @@ code_sign_if_enabled() {
 }
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/GJTAdditionKit/GJTAdditionKit.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/GJTControlsKit/GJTControlsKit.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/GJTMvvmKit/GJTMvvmKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/GJTUserCenterModule/GJTUserCenterModule.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/GJTAdditionKit/GJTAdditionKit.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/GJTControlsKit/GJTControlsKit.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/GJTMvvmKit/GJTMvvmKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/GJTUserCenterModule/GJTUserCenterModule.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait
