@@ -1,0 +1,6 @@
+framework module Pods_GJTUserCenterModule_Example {
+  umbrella header "Pods-GJTUserCenterModule_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

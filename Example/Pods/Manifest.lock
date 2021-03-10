@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - GJTUserCenterModule (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - GJTUserCenterModule (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  GJTUserCenterModule:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  GJTUserCenterModule: 0bdbf315d0a0bc16a97ea3c4b48b08ddf40bffae
+
+PODFILE CHECKSUM: 03afca7e167d512dd33585a89bdb8ee3fbb0bf01
+
+COCOAPODS: 1.10.1
