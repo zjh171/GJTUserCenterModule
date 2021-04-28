@@ -305,8 +305,10 @@
 				"${PODS_ROOT}/Target Support Files/Pods-GJTUserCenterModule_Example/Pods-GJTUserCenterModule_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GJTAdditionKit/GJTAdditionKit.framework",
 				"${BUILT_PRODUCTS_DIR}/GJTControlsKit/GJTControlsKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GJTGojitoMvvmKit/GJTGojitoMvvmKit.framework",
 				"${BUILT_PRODUCTS_DIR}/GJTMvvmKit/GJTMvvmKit.framework",
 				"${BUILT_PRODUCTS_DIR}/GJTUserCenterModule/GJTUserCenterModule.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 				"${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework",
 			);
@@ -314,8 +316,10 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GJTAdditionKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GJTControlsKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GJTGojitoMvvmKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GJTMvvmKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GJTUserCenterModule.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveObjC.framework",
 			);

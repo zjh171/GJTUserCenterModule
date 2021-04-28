@@ -1,6 +1,0 @@
-framework module GJTUserCenterModule {
-  umbrella header "GJTUserCenterModule-umbrella.h"
-
-  export *
-  module * { export * }
-}

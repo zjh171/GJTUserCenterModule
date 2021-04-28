@@ -4,17 +4,25 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - GJTAdditionKit (0.0.4)
-  - GJTControlsKit (0.0.6):
+  - GJTAdditionKit (0.0.9)
+  - GJTControlsKit (0.0.8):
     - GJTAdditionKit
-  - GJTMvvmKit (0.0.2):
+  - GJTGojitoMvvmKit (0.1.3):
+    - GJTAdditionKit (>= 0.0.9)
+    - GJTControlsKit
+    - GJTMvvmKit (> 0.0.6)
+    - Masonry
+  - GJTMvvmKit (0.0.7):
     - GJTAdditionKit
     - GJTControlsKit
     - Masonry
+    - MJRefresh
     - ReactiveObjC
   - GJTUserCenterModule (0.1.0):
+    - GJTGojitoMvvmKit
     - GJTMvvmKit
   - Masonry (1.1.0)
+  - MJRefresh (3.5.0)
   - ReactiveObjC (3.1.1)
 
 DEPENDENCIES:
@@ -26,8 +34,10 @@ SPEC REPOS:
     - FBSnapshotTestCase
     - GJTAdditionKit
     - GJTControlsKit
+    - GJTGojitoMvvmKit
     - GJTMvvmKit
     - Masonry
+    - MJRefresh
     - ReactiveObjC
 
 EXTERNAL SOURCES:
@@ -36,11 +46,13 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  GJTAdditionKit: 6ee41661512e4aa2142469ad018f387d30eb850b
-  GJTControlsKit: 58f942e8c2b6401ba26ff25d5210dd8acf15fc54
-  GJTMvvmKit: f613e88767f46d2b88822e09787f8b4da6976b37
-  GJTUserCenterModule: 311eea0ca9e1affe612eb20ed0ca793a89cd2370
+  GJTAdditionKit: 0921c8a8124891fde5c9d5395f7f47216d28b42e
+  GJTControlsKit: daf2dc8beec6fcb12a158c85b425af1a4512d4a1
+  GJTGojitoMvvmKit: 2bcf7af67a983a456b9d00e2df6d088c6d0bbbaf
+  GJTMvvmKit: 17da248c4b5af09c82fdc2fb8498ea577e80dfe4
+  GJTUserCenterModule: 128675a9d0dcc990153bf5f0858444ad1231bef3
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
   ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
 
 PODFILE CHECKSUM: 03afca7e167d512dd33585a89bdb8ee3fbb0bf01

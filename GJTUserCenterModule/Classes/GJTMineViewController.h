@@ -6,7 +6,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <GJTMvvmKit/GJTMvvmKit.h>
+#import <GJTGojitoMvvmKit/GJTGojitoMvvmKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
